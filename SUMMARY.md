@@ -10,4 +10,5 @@
 * [Product strategy and roadmap](7-product_strategy_and_roadmap.md)
 * [Relevant reference clients and cases](8-relevant_reference_clients_and_cases.md)
 * [Commercial model proposed](9-commercial_model_proposed.md)
+* Pricing model proposed
 
