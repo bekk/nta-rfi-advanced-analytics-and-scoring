@@ -2,5 +2,4 @@
 
 * [Introduction](README.md)
 * [1. Management summary of response](1-management_summary_of_response.md)
-* Supplier profile
 
