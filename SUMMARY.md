@@ -7,4 +7,5 @@
 * [Response to "Business goals and objectives of NTA"](4-response_to_business_goals_and_objectives_of_nta.md)
 * [Responses to "Key topics"](5-responses_to_key_topics.md)
 * [Proposed implementation roadmap](6-proposed_implementation_roadmap.md)
+* Product strategy and roadmap
 
