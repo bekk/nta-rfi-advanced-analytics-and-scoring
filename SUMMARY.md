@@ -5,4 +5,5 @@
 * [Supplier profile](2-supplier_profile.md)
 * [Proposed solution architecture for Norwegian Tax Administration](3-proposed_solution_architecture_for_norwegian_tax_a.md)
 * [Response to "Business goals and objectives of NTA"](4-response_to_business_goals_and_objectives_of_nta.md)
+* Responses to "Key topics"
 
