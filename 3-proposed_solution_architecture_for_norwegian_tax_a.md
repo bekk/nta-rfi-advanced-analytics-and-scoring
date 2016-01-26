@@ -37,3 +37,7 @@ The Google Prediction API supports [preprocessing your data against a PMML trans
 
 ## Cloud Dataproc for managed Hadoop and Spark
 [Google Cloud Dataproc](https://cloud.google.com/dataproc/) is a managed Hadoop MapReduce, Spark, Pig, and Hive service, to process big datasets at low cost. It provides built-in integration with BigQuery, Cloud Storage, Bigtable, Cloud Logging, and Cloud Monitoring. Cluster Management is automated, handling managed deployment, logging, and monitoring. Clusters can be created and scaled quickly with a variety of virtual machine types, disk sizes, number of nodes, and networking options. 
+
+TODO Hadoop
+
+TODO Spark
