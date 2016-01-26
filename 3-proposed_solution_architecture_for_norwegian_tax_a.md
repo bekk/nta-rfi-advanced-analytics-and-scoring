@@ -1,17 +1,19 @@
 # Proposed solution architecture for Norwegian Tax Administration
 
-The solution architecture is based on the [Google Cloud Platform](https://cloud.google.com/) (GCP). GCP is a set of modular cloud-based services built on the same infrastructure as Google, outlined below.
+The solution architecture is based on the [Google Cloud Platform](https://cloud.google.com/) (GCP). GCP is a set of modular cloud-based services built on Google infrastructure, outlined below.
 
-![Google Cloud Platfor Services](GoogleCloudPlatform.png)
+![Google Cloud Platform Services](GoogleCloudPlatform.png)
 
-TODO: Benefits
-* Managed
-* Pay for what you use
-* Pay as you go
-* Experimentation
-* Scalability
-* Future proof
-* SaaS
+The benefits of using a cloud platform are many:
+* **Managed services**: Infrastructure and operations are managed by Google.
+* **Pay as you go**: No need for a huge investment up front.
+* **Pay for what you use**: Pay for actual usage instead of guessing capacity demand before procurement.
+* **Experimentation**: Start small, test hypotheses and technology. Scale fast when solutions are verified.
+* **Elasticity**: Scale up and down on demand in development and production.
+* **Future-proof**: The cloud is becoming the industry standard. The life cycle of the NTA advanced analytics and risk platform is probably 5-10 years.
+* **Reduced risk**: The benefits listed above adds up to a significantly lower risk compared to an on-premises alternative.
+
+TODO: Data in the cloud
 
 ## BigQuery for analytics and scoring
-[BigQuery](https://cloud.google.com/bigquery/) is a fully managed, NoOps, low cost, lagrge scale analytics database.
+[BigQuery](https://cloud.google.com/bigquery/) is a fully managed, NoOps, low cost, large scale analytics database.
