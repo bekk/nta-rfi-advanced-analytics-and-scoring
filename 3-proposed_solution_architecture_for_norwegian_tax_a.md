@@ -22,4 +22,14 @@ BigQuery loads data into tables with a schema describing field names and types. 
 
 You can access BigQuery by using a [web UI](https://bigquery.cloud.google.com/) or a [command-line tool](https://cloud.google.com/bigquery/docs/cli_tool), or by making calls to the [BigQuery REST API](https://cloud.google.com/bigquery/docs/reference/v2) using a variety of client libraries such as [Java](https://developers.google.com/api-client-library/java/apis/bigquery/v2), [.NET](https://developers.google.com/api-client-library/dotnet/get_started) or [Python](https://developers.google.com/api-client-library/python/). There are also a variety of [third-party tools](https://cloud.google.com/bigquery/third-party-tools) that you can use to interact with BigQuery, such as visualizing the data or loading the data, for instance:
 * Simba provides a [BigQuery ODBC driver](http://www.simba.com/drivers/bigquery-odbc-jdbc/) that enables SQL access to BigQuery.
-* [Tableau has a native, optimized connector to Google BigQuery](http://www.tableau.com/solutions/google-bigquery) that supports both live data and in-memory BI analytics. 
+* [Tableau has a native, optimized connector to Google BigQuery](http://www.tableau.com/solutions/google-bigquery) that supports both live data and in-memory BI analytics.
+
+TODO: Security and privacy
+
+## Prediction API for prediction models and scoring
+The [Prediction API](https://cloud.google.com/prediction/) is a decision engine, using machine learning algorithms to analyze data and predict future outcomes. Use cases include fraud detection and suspicious activity identification. Most prediction queries take less than 200ms, and can be used in real time processing.
+
+The Google Prediction API supports [preprocessing your data against a PMML transform](https://cloud.google.com/prediction/docs/pmml-schema) specified using PMML 4.0 syntax. Regression and categorical models are supported:
+* Regression model: Given a new item, predict a numeric value - a *score* - for that item, based on similar valued examples in its training data.
+* Categorical model: Given a new item, choose a category that describes it best, given a set of similar categorized items in its training data.
+
