@@ -15,5 +15,7 @@ The benefits of using a cloud platform are many:
 
 TODO: Data in the cloud
 
-## BigQuery for analytics and scoring
-[BigQuery](https://cloud.google.com/bigquery/) is a fully managed, NoOps, low cost, large scale analytics database.
+## BigQuery for analytics
+[BigQuery](https://cloud.google.com/bigquery/) is a fully managed, large scale analytics database. Using the processing power of Google's infrastructure, terabytes of data and billions of entries can be queried in seconds.
+
+BigQuery loads data into tables with a schema describing field names and types. Data is queried using the [BigQuery SQL Dialect](https://cloud.google.com/bigquery/query-reference), supporting joins, aggregation, regular expressions, geospoatial queries and more. Views can also be defined, and data can be federated from [Google Cloud Storage](https://cloud.google.com/storage/).
