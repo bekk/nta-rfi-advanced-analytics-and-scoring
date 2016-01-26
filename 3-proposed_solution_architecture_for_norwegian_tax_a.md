@@ -33,3 +33,7 @@ The Google Prediction API supports [preprocessing your data against a PMML trans
 * Regression model: Given a new item, predict a numeric value - a *score* - for that item, based on similar valued examples in its training data.
 * Categorical model: Given a new item, choose a category that describes it best, given a set of similar categorized items in its training data.
 
+[A RESTful API](https://cloud.google.com/prediction/docs/reference/v1.6/) is available through libraries for many popular languages, such as [Python, JavaScript and Java](https://cloud.google.com/prediction/docs/libraries#generic). Results from Google BigQuery can be used directly or datasets can be pulled from  Cloud Storage to create a predictive model.
+
+## Cloud Dataproc for managed Hadoop and Spark
+[Google Cloud Dataproc](https://cloud.google.com/dataproc/) is a managed Hadoop MapReduce, Spark, Pig, and Hive service, to process big datasets at low cost. It provides built-in integration with BigQuery, Cloud Storage, Bigtable, Cloud Logging, and Cloud Monitoring. Cluster Management is automated, handling managed deployment, logging, and monitoring. Clusters can be created and scaled quickly with a variety of virtual machine types, disk sizes, number of nodes, and networking options. 
