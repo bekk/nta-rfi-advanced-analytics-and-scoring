@@ -38,8 +38,10 @@ The Google Prediction API supports [preprocessing your data against a PMML trans
 ## Cloud Dataproc for managed Hadoop and Spark
 [Google Cloud Dataproc](https://cloud.google.com/dataproc/) is a managed Hadoop MapReduce, Spark, Pig, and Hive service, to process big datasets at low cost. It provides built-in integration with BigQuery, Cloud Storage, Bigtable, Cloud Logging, and Cloud Monitoring. Cluster Management is automated, handling managed deployment, logging, and monitoring. Clusters can be created and scaled quickly with a variety of virtual machine types, disk sizes, number of nodes, and networking options. 
 
-TODO Hadoop
+The [Apache Hadoop](https://hadoop.apache.org/) software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures. Hadoop implements the MapReduce pattern, pioneered by Google for large scale, distributed batch processing. Hadoop on Google Cloud Dataproc supports:
+* The [Apache Hive](http://hive.apache.org/) data warehouse software facilitates querying and managing large datasets residing in distributed storage. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL.
+* The [Apache Pig](http://pig.apache.org/) platform for analyzing large data sets. Pig consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs in parallell.
 
-TODO Spark
+[Apache Spark](http://spark.apache.org/) is a fast and general engine for large-scale data processing. Spark is compatible with Hadoop data. It can run in Hadoop clusters through YARN or Spark's standalone mode, and it can process data in HDFS, HBase, Cassandra, Hive, and any Hadoop InputFormat. 
 
 ## TODO ETL
