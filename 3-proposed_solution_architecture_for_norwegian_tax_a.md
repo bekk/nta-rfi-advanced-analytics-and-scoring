@@ -60,5 +60,19 @@ We expect that the NTA can utilize [Cloud Storage](https://cloud.google.com/stor
 ## Batch Computing, Streaming and ETL
 [Cloud Dataflow](https://cloud.google.com/dataflow/) is a unified programming model and a managed service for developing and executing a wide range of data processing patterns. It supports both batch and streaming data processing of any size data set, including an unbounded or infinite data set from a continuously updating data source such as Google Cloud Pub/Sub. The Dataflow service ties together and fully manages several different Google Cloud Platform technologies, such as Google Cloud Storage and BigQuery. You can also use Dataflow for "Extract, Transform, and Load" (ETL) tasks. These tasks are useful for moving data between different storage media, transforming data into a more desirable format, or loading data onto a new storage system.
 
-[Cloud Pub/Sub](https://cloud.google.com/pubsub/) is a fully-managed real-time messaging service that allows you to send and receive messages between independent applications. You can leverage Cloud Pub/Sub’s flexibility to decouple systems and components hosted on Google Cloud Platform or elsewhere on the Internet. By building on the same technology Google uses, Cloud Pub/Sub is designed to provide “at least once” delivery at low latency with on-demand scalability to 1 million messages per second (and beyond). 
-## TODO Security
+[Cloud Pub/Sub](https://cloud.google.com/pubsub/) is a fully-managed real-time messaging service that allows you to send and receive messages between independent applications. You can leverage Cloud Pub/Sub’s flexibility to decouple systems and components hosted on Google Cloud Platform or elsewhere on the Internet. By building on the same technology Google uses, Cloud Pub/Sub is designed to provide “at least once” delivery at low latency with on-demand scalability to 1 million messages per second (and beyond).
+
+## Security
+[The Google security model](https://cloud.google.com/security/) is an end-to-end process, built on over 15 years of experience focused on keeping customers safe. At the center of the Google security model is our Information Security Team consisting of more than 500 top experts in information, application, and network security. Google data centers feature a layered security model, including safeguards like custom-designed electronic access cards, alarms, vehicle access barriers, perimeter fencing, metal detectors, and biometrics. Google has controls and practices to protect the security of customer information. The layers of the Google application and storage stack require that requests coming from other components are authenticated and authorized. When retired from Google’s systems, hard disks containing customer information are subjected to a data destruction process before leaving Google’s premises.
+
+Google Cloud Platform is built with security as a core design and development requirement. All services are managed through a secured global API gateway infrastructure. This API serving infrastructure is only accessible over encrypted SSL/TLS channels, and every request requires the inclusion of a time-limited authentication token. All platform API requests, such as web requests, storage bucket access, and user account access, are logged. Cloud Platform services automatically encrypt data before it is written to disk. For example, the data for each Cloud Storage object and its metadata is encrypted under the 256-bit Advanced Encryption Standard.
+
+Google has annual audits for the [following standards](https://cloud.google.com/security/compliance):
+* SSAE16 / ISAE 3402 Type II:
+ * SOC 2
+ * SOC 3 public audit report
+* ISO 27001, one of the most widely recognized, internationally accepted independent security standards. Google has earned ISO 27001 certification for the systems, applications, people, technology, processes and data centers serving Google Cloud Platform. Our ISO 27001 Certificate is here.
+* FISMA Moderate accreditation for Google App Engine
+* PCI DSS v3.0
+
+See also the [Google Security Whitepaper](https://cloud.google.com/security/whitepaper)
