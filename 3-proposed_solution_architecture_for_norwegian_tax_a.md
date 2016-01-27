@@ -48,6 +48,16 @@ The [Apache Hadoop](https://hadoop.apache.org/) software library is a framework 
 * [MLlib](http://spark.apache.org/mllib/) for scalable machine learning, supporting logistic regression, classification and regression tree, hypothesis testing and several more.
 * [GraphX](http://spark.apache.org/graphx/) for graphs and graph-parallel computation. 
 
-We recommend that NTA starts experimenting with BigQuery and the Prediction API. Use the Spark MLLib library if more specific algorithms and methods are required. Both Hadoop and Spark integrates with the popular [R statistics library](http://www.revolutionanalytics.com/revolution-r-open) see [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) and [SparkR](https://spark.apache.org/docs/latest/sparkr.html).
+We recommend that NTA starts experimenting with BigQuery and the Prediction API. Use the Spark MLLib library if more specific algorithms and methods are required. GraphX can be used for use cases where connected entities are to be analyzed or queried. Both Hadoop and Spark integrates with the popular [R statistics library](http://www.revolutionanalytics.com/revolution-r-open) see [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) and [SparkR](https://spark.apache.org/docs/latest/sparkr.html).
 
-## TODO ETL
+## Storage
+Google offers several options for storing data using the Google Cloud Platform. The table below outlines the [storage alternatives](https://cloud.google.com/docs/storing-your-data) and which data they are suited for:
+
+![Choosing a Storage Option](GCPStorage.png)
+
+We expect that the NTA can utilize [Cloud Storage](https://cloud.google.com/storage/) as the main storage for  billions of semi-structured data like XML and JSON. An alternative is [BigTable](https://cloud.google.com/bigtable/) for low-latency use cases. Both integrate with BigQuery, Hadoop and Spark. [Cloud Datastore](https://cloud.google.com/datastore/) or [Cloud SQL](https://cloud.google.com/sql/) can be used to handle common static data like code tables and product catalogs. [Memcache](https://cloud.google.com/appengine/articles/scaling/memcache/) can be used for low-latency lookups, for instance finding people or organizations based on SSN or ID lookups.
+
+## Streaming and ETL
+
+
+## TODO Security
