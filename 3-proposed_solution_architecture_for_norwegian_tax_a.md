@@ -35,7 +35,7 @@ The Google Prediction API supports [preprocessing your data against a PMML trans
 
 [A RESTful API](https://cloud.google.com/prediction/docs/reference/v1.6/) is available through libraries for many popular languages, such as [Python, JavaScript and Java](https://cloud.google.com/prediction/docs/libraries#generic). Results from Google BigQuery can be used directly or datasets can be pulled from  Cloud Storage to create a predictive model.
 
-## Cloud Dataproc for managed Hadoop and Spark
+## Cloud Dataproc - Managed Hadoop and Spark
 [Google Cloud Dataproc](https://cloud.google.com/dataproc/) is a managed Hadoop MapReduce, Spark, Pig, and Hive service, to process big datasets at low cost. It provides built-in integration with BigQuery, Cloud Storage, Bigtable, Cloud Logging, and Cloud Monitoring. Cluster Management is automated, handling managed deployment, logging, and monitoring. Clusters can be created and scaled quickly with a variety of virtual machine types, disk sizes, number of nodes, and networking options. 
 
 The [Apache Hadoop](https://hadoop.apache.org/) software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures. Hadoop implements the MapReduce pattern, pioneered by Google for large scale, distributed batch processing. Hadoop on Google Cloud Dataproc supports:
@@ -48,6 +48,6 @@ The [Apache Hadoop](https://hadoop.apache.org/) software library is a framework 
 * [MLlib](http://spark.apache.org/mllib/) for scalable machine learning, supporting logistic regression, classification and regression tree, hypothesis testing and several more.
 * [GraphX](http://spark.apache.org/graphx/) for graphs and graph-parallel computation. 
 
-We recommend that NTA starts experimenting with BigQuery and the Prediction API. Use the Spark MLLib library if more specific algorithms and methods are required.
+We recommend that NTA starts experimenting with BigQuery and the Prediction API. Use the Spark MLLib library if more specific algorithms and methods are required. Both Hadoop and Spark integrates with the popular [R statistics library](http://www.revolutionanalytics.com/revolution-r-open) see [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki) and [SparkR](https://spark.apache.org/docs/latest/sparkr.html).
 
 ## TODO ETL
