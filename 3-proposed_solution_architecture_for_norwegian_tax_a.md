@@ -42,6 +42,12 @@ The [Apache Hadoop](https://hadoop.apache.org/) software library is a framework 
 * The [Apache Hive](http://hive.apache.org/) data warehouse software facilitates querying and managing large datasets residing in distributed storage. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL.
 * The [Apache Pig](http://pig.apache.org/) platform for analyzing large data sets. Pig consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs in parallell.
 
-[Apache Spark](http://spark.apache.org/) is a fast and general engine for large-scale data processing. Spark is compatible with Hadoop data. It can run in Hadoop clusters through YARN or Spark's standalone mode, and it can process data in HDFS, HBase, Cassandra, Hive, and any Hadoop InputFormat. 
+[Apache Spark](http://spark.apache.org/) is a fast and general engine for large-scale data processing, and is compatible with Hadoop data. It can run in Hadoop clusters through YARN or Spark's standalone mode, and it can process data in HDFS, HBase, Cassandra, Hive, and any Hadoop InputFormat. The Spark platform provides the following libraries which can be combined seamlessly:
+* [Spark SQL](http://spark.apache.org/sql/) lets you query structured data inside Spark programs
+* [Spark Streaming](http://spark.apache.org/streaming/) to build scalable fault-tolerant streaming applications.
+* [MLlib](http://spark.apache.org/mllib/) for scalable machine learning, supporting logistic regression, classification and regression tree, hypothesis testing and several more.
+* [GraphX](http://spark.apache.org/graphx/) for graphs and graph-parallel computation. 
+
+We recommend that NTA starts experimenting with BigQuery and the Prediction API. Use the Spark MLLib library if more specific algorithms and methods are required.
 
 ## TODO ETL
