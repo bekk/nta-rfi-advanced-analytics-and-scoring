@@ -29,8 +29,9 @@ The main components of the proposed architecture are:
 * Cloud SQL (or possibly Cloud Datastore) for common static data.
 * Cloud Dataflow for data transport, ETL, batch and stream processing.
 * Cloud Pub/Sub for messaging.
+* [Carrier Interconnect](https://cloud.google.com/interconnect/) establishes a secure and fast connection between Google Cloud Platform and the NTA.
 
-![](NTA-RFI-Architecture.png)
+![NTA RFI ArchitectureOutline](NTA-RFI-ArchitectureOutline.png)
 
 These components are described further below. 
 
