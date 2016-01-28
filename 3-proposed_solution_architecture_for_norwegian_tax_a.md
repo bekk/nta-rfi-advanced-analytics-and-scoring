@@ -11,7 +11,7 @@ The benefits of using a cloud platform are many:
 * **Experimentation**: Start small, test hypotheses and technology. Scale fast when solutions are verified.
 * **Elasticity**: Scale up and down on demand in development and production.
 * **Future-proof**: The cloud is becoming the industry standard. The life cycle of the NTA advanced analytics and risk platform is probably 5-10 years.
-* **Reduced risk**: The benefits listed above adds up to a low risk and increases the probability of success.
+* **Reduced risk**: The benefits listed above adds up to low risk and increases the probability of success.
 
 NTA data will be processed and stored in the Google Cloud Platform. In order to comply with  Personal Data Regulations, we recommend that data is contained within the [European Data Location](http://googlecloudplatform.blogspot.no/2015/04/take-your-big-data-to-new-places-with-Google-BigQuery.html). The Norwegian Data Protection Authority outlines [these steps to store and process data within the EU region](http://www.datatilsynet.no/Teknologi/Skytjenester---Cloud-Computing/):
 * Conduct a risk and vulnerability assessment for handling personal data.
