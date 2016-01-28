@@ -32,8 +32,6 @@ The main components of the proposed architecture are:
 
 These components are described further below. 
 
-![NTA RFI Architecture](NTA-RFI-Architecture.png)
-
 ## BigQuery for analytics
 [BigQuery](https://cloud.google.com/bigquery/) is a fully managed, large scale analytics database. Using the processing power of Google's infrastructure, terabytes of data and billions of entries can be queried in seconds.
 
