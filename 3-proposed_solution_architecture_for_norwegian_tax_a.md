@@ -15,9 +15,9 @@ The benefits of using a cloud platform are many:
 
 NTA data will be processed and stored in the Google Cloud Platform. In order to comply with  Personal Data Regulations, we recommend that data is contained within the [European Data Location](http://googlecloudplatform.blogspot.no/2015/04/take-your-big-data-to-new-places-with-Google-BigQuery.html). The Norwegian Data Protection Authority outlines [these steps to store and process data within the EU region](http://www.datatilsynet.no/Teknologi/Skytjenester---Cloud-Computing/):
 * Conduct a risk and vulnerability assessment for handling personal data.
- * A license from the Norwegian Data Protection Authority is required in order to handle sensitive personal data.
-* Sign a Data Processor Agreement with Google. This agreement is a part of the standard agreement.
-* Audit the Data Processor, possibly by a third party auditor. Google is audited ..
+ * A license from the Norwegian Data Protection Authority is required in order to process sensitive personal data.
+* Sign a Data Processor Agreement with Google. This [agreement](https://cloud.google.com/terms/data-processing-terms) is a part of the [standard agreement](https://cloud.google.com/terms/) from Google.
+* Audit the Data Processor, possibly by a third party auditor. [Independent audits](https://cloud.google.com/security/compliance) of infrastructure, services, and operations are executed regularly.
 * Ensure that data is not transported outside the EU region.
 * Document the system and agreements, available for control by the Norwegian Data Protection Authority.
 
