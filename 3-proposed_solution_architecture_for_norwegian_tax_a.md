@@ -30,6 +30,8 @@ The main components of the proposed architecture are:
 * Cloud Dataflow for data transport, ETL, batch and stream processing.
 * Cloud Pub/Sub for messaging.
 
+![](NTA-RFI-Architecture.png)
+
 These components are described further below. 
 
 ## BigQuery for analytics
