@@ -11,9 +11,17 @@ The benefits of using a cloud platform are many:
 * **Experimentation**: Start small, test hypotheses and technology. Scale fast when solutions are verified.
 * **Elasticity**: Scale up and down on demand in development and production.
 * **Future-proof**: The cloud is becoming the industry standard. The life cycle of the NTA advanced analytics and risk platform is probably 5-10 years.
-* **Reduced risk**: The benefits listed above adds up to a significantly lower risk compared to an on-premises alternative.
+* **Reduced risk**: The benefits listed above adds up to a significantly lower risk compared t oan on-premises alternative.
 
-TODO: Data in the cloud
+NTA data will be processed and stored in the Google Cloud Platform. In order to comply with  Personal Data Regulations, we recommend that data is contained within the [European Data Location](http://googlecloudplatform.blogspot.no/2015/04/take-your-big-data-to-new-places-with-Google-BigQuery.html). The Norwegian Data Protection Authority outlines [these steps to store and process data within the EU region](http://www.datatilsynet.no/Teknologi/Skytjenester---Cloud-Computing/):
+* Conduct a risk and vulnerability assessment for handling personal data.
+ * A license from the Norwegian Data Protection Authority is required in order to handle sensitive personal data.
+* Sign a Data Processor Agreement with Google. This agreement is a part of the standard agreement.
+* Audit the Data Processor, possibly by a third party auditor. Google is audited ..
+* Ensure that data is not transported outside the EU region.
+* Document the system and agreements, available for control by the Norwegian Data Protection Authority.
+
+TODO: Architecture Outline
 
 ## BigQuery for analytics
 [BigQuery](https://cloud.google.com/bigquery/) is a fully managed, large scale analytics database. Using the processing power of Google's infrastructure, terabytes of data and billions of entries can be queried in seconds.
