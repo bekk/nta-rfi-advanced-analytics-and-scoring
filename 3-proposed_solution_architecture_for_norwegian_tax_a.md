@@ -21,7 +21,18 @@ NTA data will be processed and stored in the Google Cloud Platform. In order to 
 * Ensure that data is not transported outside the EU region.
 * Document the system and agreements, available for control by the Norwegian Data Protection Authority.
 
-TODO: Architecture Outline
+The main components of the proposed architecture are:
+* BigQuery for analytics.
+* Prediction API for prediction models and scoring.
+* Possibly Cloud Dataproc - Managed Hadoop and Spark - if required.
+* Cloud Storage as the main storage for semi-structured data, and possibly  BigTable for very low-latency use cases.
+* Cloud SQL (or possibly Cloud Datastore) for common static data.
+* Cloud Dataflow for data transport, ETL, batch and stream processing.
+* Cloud Pub/Sub for messaging.
+
+These components are described further below. 
+
+![NTA RFI Architecture](NTA-RFI-Architecture.png)
 
 ## BigQuery for analytics
 [BigQuery](https://cloud.google.com/bigquery/) is a fully managed, large scale analytics database. Using the processing power of Google's infrastructure, terabytes of data and billions of entries can be queried in seconds.
@@ -31,8 +42,6 @@ BigQuery loads data into tables with a schema describing field names and types. 
 You can access BigQuery by using a [web UI](https://bigquery.cloud.google.com/) or a [command-line tool](https://cloud.google.com/bigquery/docs/cli_tool), or by making calls to the [BigQuery REST API](https://cloud.google.com/bigquery/docs/reference/v2) using a variety of client libraries such as [Java](https://developers.google.com/api-client-library/java/apis/bigquery/v2), [.NET](https://developers.google.com/api-client-library/dotnet/get_started) or [Python](https://developers.google.com/api-client-library/python/). There are also a variety of [third-party tools](https://cloud.google.com/bigquery/third-party-tools) that you can use to interact with BigQuery, such as visualizing the data or loading the data, for instance:
 * Simba provides a [BigQuery ODBC driver](http://www.simba.com/drivers/bigquery-odbc-jdbc/) that enables SQL access to BigQuery.
 * [Tableau has a native, optimized connector to Google BigQuery](http://www.tableau.com/solutions/google-bigquery) that supports both live data and in-memory BI analytics.
-
-TODO: Security and privacy
 
 ## Prediction API for prediction models and scoring
 The [Prediction API](https://cloud.google.com/prediction/) is a decision engine, using machine learning algorithms to analyze data and predict future outcomes. Use cases include fraud detection and suspicious activity identification. Most prediction queries take less than 200ms, and can be used in real time processing.
