@@ -1,6 +1,6 @@
 # Responses to "Key topics"
 
-TODO bla bla
+The Google Cloud Platform is managed by Google, leaving domain experts to focus on domain logic only. The services are integrated and tools can perform tasks such as moving data and ETL. Custom development is required for specific domain logic implementation and low-level or complex behavior. The sections below addresses the key topics listed by the NTA.
 
 ## Analytical tools and metadata support
 
@@ -25,14 +25,14 @@ TODO bla bla
 | Risk scoring and handling strategies in real time and batch | BigQuery, Prediction API and the rest of the Google Cloud Platform is designed for elasticity and can handle both real time and batch processing. |
 | Real time use cases | Use Cloud Pub/Sub to coordinate events among services. For instance, a Prediction API execution can trigger an event consumed by the Dataproc Spark GraphX library to run a graph analysis based on the prediction result. |
 | Standardized development and deployment, governance, life-cycle | [Cloud Deployment Manager](https://cloud.google.com/deployment-manager/) allows developers to easily design, deploy, and reuse complex Cloud Platform solutions using simple and flexible declarative templates.  |
-| Administrative tools  |  |
-| Process and model improvements  | TODO |
+| Administrative tools  | Google Cloud Platform services offer administrative interfaces like [BigQuery Web UI](https://cloud.google.com/bigquery/bigquery-web-ui) and command line tools like the [BigQuery Command-Line Tool](https://cloud.google.com/bigquery/bq-command-line-tool). All services have APIs for automation and customization. Management tools include the [Deployment Manager](https://cloud.google.com/deployment-manager/) and TODO:Otso  |
+| Process and model improvements  | No built-in support except standard logging. |
 
 ## General goals and objectives
 
 | **Topic** | **Response**| 
 | --- | --- |
-| Open standards enabling integration | TODO |
-| Open standards for rules and predictive models | TODO |
-| Integrated security | TODO |
-| Scalability, performance and flexibility | TODO |
+| Open standards enabling integration | Google Cloud Platform services has open APIs and open source API clients. This allows for third party integration like [BigQuery third-party tools and services](https://cloud.google.com/bigquery/third-party-tools) as well as custom integration. Dataproc Spark and Hadoop are open source components with a large open source ecosystem. |
+| Open standards for rules and predictive models | Predictive API supports [PMML preprocessing](https://cloud.google.com/prediction/docs/pmml-schema). Dataproc Spark MLlib is an open source platform. |
+| Integrated security | The Google security model is an end-to-end process, encrypting data in-flight and at-rest. ACLs are used for authorization. There is no built-in support for anonymization. Se also the [Google Security Model](https://cloud.google.com/security/#security_measures) and the [Google Security Whitepaper](https://cloud.google.com/security/whitepaper#for_customer_administrators). |
+| Scalability, performance and flexibility | The Google Cloud Platform is designed for scalability and performance, and can do real time queries, processing and scoring. |
