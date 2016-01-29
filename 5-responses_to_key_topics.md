@@ -6,14 +6,15 @@ TODO bla bla
 
 | **Topic** | **Response**| 
 | --- | --- |
-| Development, testing, deployment, monitoring and evaluation of risk models | TODO |
-| Sharable secure data work spaces ("sandboxes") | TODO |
-| Data access, filtering, proecssing and search | TODO |
-| Processing and manipulation of large datasets | TODO |
-| Data exploration and visualization. | TODO |
-| Basic statistical methods  | TODO |
-| Identification of patterns and anomalies | TODO |
-| Text mining supporting Norwegian language | TODO |
+| Analytical tools and metadata support | BigQuery is a powerful Big Data analytics platform supporting SQL for queries, views and user defined functions. The BigQuery schema is user defined to handle any meta data requirements. |
+| Development, testing, deployment, monitoring and evaluation of risk models | The Google Cloud platform allows any number of environments. Users can easily define, duplicate and move data between instances to according to their requirements. |
+| Sharable secure data work spaces ("sandboxes") | Google Cloud Platform services like BigQuery and Cloud Storage uses Access Control Lists (ACLs) for authorization. ACLs can be used to define sharable and secure sandboxes. |
+| Data access, filtering, processing and search | BigQuery supports data access, filtering and search. Processing is typically implemented using Cloud Dataflow. |
+| Processing and manipulation of large datasets | All Google Cloud Platform services, like BigQuery and Cloud Dataflow, are designed to scale for billions of entities and terabytes of data. |
+| Data exploration and visualization. | BigQuery SQL is used for data exploration. Additionally, several [third party tools](https://cloud.google.com/bigquery/third-party-tools) are available for integration and visualization. BigQuery can also be [connected to Excel](https://cloud.google.com/bigquery/bigquery-connector-for-excel). |
+| Basic statistical methods  | The Predication API supports machine learning based on statistical methods. Use Dataproc Spark for more algorithms and additional support for customization. |
+| Identification of patterns and anomalies | BigQuery can be used to understand and discover patterns and relations in the datasets. The Prediction API and Dataproc Spark can be used for automated prediction, pattern recognition and discover anomalies. |
+| Text mining supporting Norwegian language |  |
 | Forecasting, simulation, optimization. | TODO |
 
 ## Decision engine
