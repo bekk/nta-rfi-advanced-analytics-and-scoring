@@ -14,8 +14,8 @@ TODO bla bla
 | Data exploration and visualization. | BigQuery SQL is used for data exploration. Additionally, several [third party tools](https://cloud.google.com/bigquery/third-party-tools) are available for integration and visualization. BigQuery can also be [connected to Excel](https://cloud.google.com/bigquery/bigquery-connector-for-excel). |
 | Basic statistical methods  | The Predication API supports machine learning based on statistical methods. Use Dataproc Spark for more algorithms and additional support for customization. |
 | Identification of patterns and anomalies | BigQuery can be used to understand and discover patterns and relations in the datasets. The Prediction API and Dataproc Spark can be used for automated prediction, pattern recognition and discover anomalies. |
-| Text mining supporting Norwegian language |  |
-| Forecasting, simulation, optimization. | TODO |
+| Text mining supporting Norwegian language | Dataproc Spark MLlib supports many data mining algorithms. BigQuery and the Prediction API also provide text mining functionality. Another option is to use BigQuery for a preflight check by quick data analysis, and Dataproc Spark/Hadoop or Cloud Dataflow to execute a production data processing or data mining. The Google Cloud Platform supports internationalization and Norwegian language by default. |
+| Forecasting, simulation, optimization. | The Prediction API supports forecasting, simulation and optimization. Furthermore, Dataproc Spark MLlib can be utilized for custom algorithms and behavior. |
 
 ## Decision engine
 
