@@ -20,18 +20,18 @@ TODO bla bla
 
 | **Topic** | **Response**| 
 | --- | --- |
-| TODO | TODO |
-| TODO | TODO |
-| TODO | TODO |
-| TODO | TODO |
-| TODO | TODO |
+| Combine rules, predictive/expert models, pattern and graph analysis | TODO |
+| Risk scoring and handling strategies in real time and batch | TODO |
+| Real time use cases | TODO |
+| Standardized development and deployment, governance, life-cycle | TODO |
+| Administrative tools  | TODO |
+| Process and model improvements  | TODO |
 
 ## General goals and objectives
 
 | **Topic** | **Response**| 
 | --- | --- |
-| TODO | TODO |
-| TODO | TODO |
-| TODO | TODO |
-| TODO | TODO |
-| TODO | TODO |
+| Open standards enabling integration | TODO |
+| Open standards for rules and predictive models | TODO |
+| Integrated security | TODO |
+| Scalability, performance and flexibility | TODO |
