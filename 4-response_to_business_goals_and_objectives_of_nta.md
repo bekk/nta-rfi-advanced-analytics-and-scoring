@@ -1,22 +1,7 @@
 # Response to "Business goals and objectives of NTA"
 The goals of the NTA strategic roadmap towards 2025 includes organizational agility and efficient resource usage. The solution based on Google Cloud Platform is a very good match for these goals:
 * A cloud based solution allows the NTA to focus solely on business goals. No time wasted on acquiring and maintaining infrastructure. The platform and operations is completely managed.
-* The NTA can choose a [Lean Startup](http://theleanstartup.com/principles) approach internally. This means working with MVPs, testing hyphothesis with short feedback loops, failing fast and continually learning from experimentation. The cloud platform allows scaling up for large datasets and huge amounts of computing power on demand.
+* The NTA can choose a [Lean Startup](http://theleanstartup.com/principles) approach. This means working with MVPs, testing hyphothesis with short feedback loops, failing fast and continually learning from experimentation. The cloud platform allows scaling up for large datasets and huge amounts of computing power on demand.
 * Hardware resources is optimized by the cloud platform. Humans resources can focus on the business domain only, evolving analytics solutions and risk based models in a very efficient way.
 
-
-strengthen its ability to analyze taxpayer’s behaviour to ensure
-that non-compliance is detected and acted upon. a better
-understanding of taxpayer behaviour and behaviour patterns in order to identify potential non-compliant
-behaviour at an early stage.
-
-Better utilization of knowledge. 
-New methods to analyse complex relationships. such capabilities can be used to categorize
-events, organizations, persons and provide input to risk based models.
-Real time risk assessment. 
-Models and rules implemented in our production processes that take updated (real time) information into
-account 
-common decision engine and a common more sophisticated analytics platform 
-More efficient analytics tools covering a more complex information pool reduces time spent on gathering
-Analytical capabilities
-Real time streaming events needs to be risk assessed.
+The proposed solution satisfies all of the areas of improvement mentioned in the Business goals and objectives of the NTA. Having all data available allows the knowledge to be utilized for BigQuery analytics and used as training data for the Prediction API. This allows for continuous learning, evolving and improving upon the risk models and patterns as data is added and new patterns and relationships are discovered. Graph analysis and specialised machine learning is available on the Dataproc Spark platform. BigQuery and the Prediction API - as well as the rest of the Google Cloud Platform - is designed for scalability, and will be able to respond to most queries in real time. Cloud Dataflow is used for stream processing and data transport in conjunction with BigQuery and the Prediction API, efficiently moving data when necessary. Combined with Cloud Pub/Sub for even driven behavior, the proposed solution is able to handle real time and continuous streams of data and information. Summing up, this will strengthen NTA's ability to analyze taxpayer’s behaviour and ensure that non-compliance is detected and acted upon in an early stage.
