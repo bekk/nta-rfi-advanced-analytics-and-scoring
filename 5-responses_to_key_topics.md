@@ -21,11 +21,11 @@ TODO bla bla
 
 | **Topic** | **Response**| 
 | --- | --- |
-| Combine rules, predictive/expert models, pattern and graph analysis | TODO |
-| Risk scoring and handling strategies in real time and batch | TODO |
-| Real time use cases | TODO |
-| Standardized development and deployment, governance, life-cycle | TODO |
-| Administrative tools  | TODO |
+| Combine rules, predictive/expert models, pattern and graph analysis | All Google Cloud Platform services are integrated and can be used in concert. Use Cloud Dataflow to move data, and Cloud Pub/sub to coordinate between services. |
+| Risk scoring and handling strategies in real time and batch | BigQuery, Prediction API and the rest of the Google Cloud Platform is designed for elasticity and can handle both real time and batch processing. |
+| Real time use cases | Use Cloud Pub/Sub to coordinate events among services. For instance, a Prediction API execution can trigger an event consumed by the Dataproc Spark GraphX library to run a graph analysis based on the prediction result. |
+| Standardized development and deployment, governance, life-cycle | [Cloud Deployment Manager](https://cloud.google.com/deployment-manager/) allows developers to easily design, deploy, and reuse complex Cloud Platform solutions using simple and flexible declarative templates.  |
+| Administrative tools  |  |
 | Process and model improvements  | TODO |
 
 ## General goals and objectives
