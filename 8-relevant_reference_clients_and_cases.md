@@ -11,5 +11,3 @@ Some references that use Google Cloud Platform for analytics:
 [MAG Interactive](http://googlecloudplatform.blogspot.no/2013/11/google-app-engine-helps-mag-interactive.html): Using Google BigQuery for business intelligence, tracking 
 millions of events in the game every day to know what users are doing – or not doing – and how the experience can be improved.
 
-Also check out Techila - Google Financial department is using them to speed-up financial analysis in Matlab analysis.
-
