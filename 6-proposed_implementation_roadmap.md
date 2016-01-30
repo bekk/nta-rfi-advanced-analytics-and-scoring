@@ -14,3 +14,4 @@ As the services in the Google Cloud Platform are available immediately after ord
  * Use BigQuery to provide establish models and training data.
 * Establish Spark MLLib and GraphX to handle custom requirements.
 
+An essential benefit of using the Google Cloud Platform is the ability to experiment and evolve the solution as requirements are understood, clarified, added and removed. There is virtually no cost of trying a new service or approach, and if it fails the NTA can change direction and try an alternative approach. You only pay for actual usage of the services, and once you stop you also stop paying.
