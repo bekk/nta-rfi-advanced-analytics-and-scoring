@@ -1,4 +1,4 @@
-# Response to "Business goals and objectives of NTA"
+# 4. Response to "Business goals and objectives of NTA"
 The goals of the NTA strategic roadmap towards 2025 includes organizational agility and efficient resource usage. The solution based on Google Cloud Platform is a very good match for these goals:
 * A cloud based solution allows the NTA to focus solely on business goals. No time wasted on acquiring and maintaining infrastructure. The platform and operations is completely managed.
 * The NTA can choose a [Lean Startup](http://theleanstartup.com/principles) approach. This means working with MVPs, testing hyphothesis with short feedback loops, failing fast and continually learning from experimentation. The cloud platform allows scaling up for large datasets and huge amounts of computing power on demand.
