@@ -1,4 +1,4 @@
-My Awesome Book
+Supplier response - Advanced analytics and scoring
 =======
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This document is the supplier response from Bekk Consulting AS (BEKK) for *Request for information (RFI) Advanced analytics and scoring*, published in Doffin with reference 2015-168721
