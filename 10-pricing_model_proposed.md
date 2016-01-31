@@ -1,4 +1,4 @@
-# Pricing model proposed
+# 10. Pricing model proposed
 
 [Pricing](https://cloud.google.com/pricing/) should be as simple as possible, while following the falling cost of compute defined by Moore’s Law. Pricing Principles
 * Optimized For Your Workload
