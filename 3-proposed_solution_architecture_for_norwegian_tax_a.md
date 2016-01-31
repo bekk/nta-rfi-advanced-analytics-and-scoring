@@ -1,4 +1,4 @@
-# Proposed solution architecture for Norwegian Tax Administration
+# 3. Proposed solution architecture for Norwegian Tax Administration
 
 The solution architecture is based on the [Google Cloud Platform](https://cloud.google.com/) (GCP). GCP is a set of modular cloud-based services built on Google infrastructure, outlined below.
 
