@@ -1,4 +1,4 @@
-# Product strategy and roadmap
+# 7. Product strategy and roadmap
 
 ![Google Cloud Platform Blog](GCPBlog.png)
 
