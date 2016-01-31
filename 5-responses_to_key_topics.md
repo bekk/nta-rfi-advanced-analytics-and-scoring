@@ -22,6 +22,8 @@ The Google Cloud Platform is managed by Google, leaving domain experts to focus 
 
 *The decision engine will use models and rules and other supporting technologies to provide business processes with risk based decision support in real time. Lifecycle management will enable NTA to develop, test, configure, deploy and evaluate a rich set of risk models.*
 
+*The decision engine ss an important and integrated component in our modernized IT architecture. It will serve the business processes and provide different processing patterns based on risk models.*
+
 | **Topic** | **Response**| 
 | --- | --- |
 | Combine rules, predictive/expert models, pattern and graph analysis | All Google Cloud Platform services are integrated and can be used in concert. Use Cloud Dataflow to move data, and Cloud Pub/sub to coordinate between services. |
