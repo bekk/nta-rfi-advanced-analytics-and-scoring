@@ -1,4 +1,4 @@
-# Responses to "Key topics"
+# 5. Responses to "Key topics"
 
 The Google Cloud Platform is managed by Google, leaving domain experts to focus on domain logic only. The services are integrated and tools can perform tasks such as moving data and ETL. Custom development is required for specific domain logic implementation and low-level or complex behavior. The sections below addresses the key topics listed by the NTA.
 
