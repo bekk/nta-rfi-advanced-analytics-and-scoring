@@ -6,6 +6,6 @@ The GCP is built for large scale processing, and is a proven platform to handle 
 
 The cloud has reached a tipping point, and is rapidly becoming the industry standard for deploying and running applications and services. Cloud providers are outpacing traditional vendors and internal operations organizations in all areas, including security, availability, elasticity, functionality and cost effectiveness. Google has one of the largest and most advanced computer networks and one of the largest - but also one of the greenest - data center infrastructures among the world’s companies.
 
+A significant benefit of using Software-as-a-Service is that the customer does not have to invest in hardware, infrastructure, operations or platform maintenance. You pay only for what you use, and you pay as you go. Furthermore, domain experts can focus solely on functionality and behavior of their applications.
 
-* Pay as you go
-* Risk
+This gives the NTA the flexibility of experimenting, iterating and learning, testing hypothesis and evolving applications continuously. As there is no up front cost, failing and trying alternative approaches is virtually free. When required, the Google Cloud Platform services will scale on demand. This adds up to a substantially reduced overall risk for the NTA. The cost and consequence of failure is low, while the probability of success using GCP proved services is high.
