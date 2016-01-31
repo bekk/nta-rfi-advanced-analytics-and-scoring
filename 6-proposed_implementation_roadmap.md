@@ -1,4 +1,4 @@
-# Proposed implementation roadmap
+# 6. Proposed implementation roadmap
 
 As the services in the Google Cloud Platform are available immediately after ordering, and integrate well, NTA has full flexibility on how to approach implementation. First the NTA has to connect and move data into the Google Cloud Platform. A high level implementation road map could be very straightforward:
 
