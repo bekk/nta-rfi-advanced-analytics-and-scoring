@@ -17,6 +17,7 @@ The Google Cloud Platform is managed by Google, leaving domain experts to focus 
 | Identification of patterns and anomalies | BigQuery can be used to understand and discover patterns and relations in the datasets. The Prediction API and Dataproc Spark can be used for automated prediction, pattern recognition and discover anomalies. |
 | Text mining supporting Norwegian language | Dataproc Spark MLlib supports many data mining algorithms. BigQuery and the Prediction API also provide text mining functionality. Another option is to use BigQuery for a preflight check by quick data analysis, and Dataproc Spark/Hadoop or Cloud Dataflow to execute a production data processing or data mining. The Google Cloud Platform supports internationalization and Norwegian language by default. |
 | Forecasting, simulation, optimization. | The Prediction API supports forecasting, simulation and optimization. Furthermore, Dataproc Spark MLlib can be utilized for custom algorithms and behavior. |
+| Integration with Oracle EDW | The [Simba ODBC Driver with SQL Connector for Google BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) powers the translation from standard SQL to BigQuerySQL and configures to pass the query through if an application is BigQuery-aware. The [CData JDBC Driver for Google BigQuery 2015](http://cdn.cdata.com/help/DBA/jdbc/) allows you to access Google BigQuery from Java applications. |
 
 ## Decision engine
 
