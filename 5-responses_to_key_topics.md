@@ -3,6 +3,7 @@
 The Google Cloud Platform is managed by Google, leaving domain experts to focus on domain logic only. The services are integrated and tools can perform tasks such as moving data and ETL. Custom development is required for specific domain logic implementation and low-level or complex behavior. The sections below addresses the key topics listed by the NTA.
 
 ## Analytical tools and metadata support
+*The analytics platform will enable NTAs analysts/data scientists to perform a variety of analytical tasks, give insights to data and develop, maintain and evaluate risk models. Through the use of tools and integrated metadata, they should be able to perform necessary preparation and processing of data for analytical purposes without the need for IT resources ("self-service" principle).*
 
 | **Topic** | **Response**| 
 | --- | --- |
@@ -18,6 +19,9 @@ The Google Cloud Platform is managed by Google, leaving domain experts to focus 
 | Forecasting, simulation, optimization. | The Prediction API supports forecasting, simulation and optimization. Furthermore, Dataproc Spark MLlib can be utilized for custom algorithms and behavior. |
 
 ## Decision engine
+
+*The decision engine will use models and rules and other supporting technologies to provide business processes with risk based decision support in real time. Lifecycle management will enable NTA to develop, test, configure, deploy and evaluate a rich set of risk models.*
+
 | **Topic** | **Response**| 
 | --- | --- |
 | Combine rules, predictive/expert models, pattern and graph analysis | All Google Cloud Platform services are integrated and can be used in concert. Use Cloud Dataflow to move data, and Cloud Pub/sub to coordinate between services. |
