@@ -18,7 +18,6 @@ The Google Cloud Platform is managed by Google, leaving domain experts to focus 
 | Forecasting, simulation, optimization. | The Prediction API supports forecasting, simulation and optimization. Furthermore, Dataproc Spark MLlib can be utilized for custom algorithms and behavior. |
 
 ## Decision engine
-
 | **Topic** | **Response**| 
 | --- | --- |
 | Combine rules, predictive/expert models, pattern and graph analysis | All Google Cloud Platform services are integrated and can be used in concert. Use Cloud Dataflow to move data, and Cloud Pub/sub to coordinate between services. |
