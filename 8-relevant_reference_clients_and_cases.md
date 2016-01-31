@@ -1,4 +1,4 @@
-# Relevant reference clients and cases
+# 8. Relevant reference clients and cases
 
 Some references that use Google Cloud Platform for analytics:
 
