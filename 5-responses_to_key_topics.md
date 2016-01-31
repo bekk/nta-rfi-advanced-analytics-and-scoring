@@ -29,7 +29,6 @@ The Google Cloud Platform is managed by Google, leaving domain experts to focus 
 | Process and model improvements  | No built-in support except standard logging. |
 
 ## General goals and objectives
-
 | **Topic** | **Response**| 
 | --- | --- |
 | Open standards enabling integration | Google Cloud Platform services has open APIs and open source API clients. This allows for third party integration like [BigQuery third-party tools and services](https://cloud.google.com/bigquery/third-party-tools) as well as custom integration. Dataproc Spark and Hadoop are open source components with a large open source ecosystem. |
